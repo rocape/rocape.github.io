@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    position: relative;
+}
+.pin{
+    float: left;
+    padding: 5px;
+}
+.box{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #cccccc;
+    border: 1px #cccccc solid;
+}
+.box_img{
+    width: 300px;
+    height: auto;
+}
+
+.footer{ background-color:#222222; position:fixed; z-index:1; width:100%; bottom:0; left:0; right:0; padding-top:10px; padding-bottom:10px; text-align:center; color:#999999; font-size:10px; letter-spacing:1px; font-weight:400}
+
+.footer h3{ text-align:center; color:#FFF;font-family: 'Oranienbaum', serif; text-transform:uppercase; letter-spacing:2px; font-size:32px; position:relative}
+
+.footer h3:after{ content:""; margin:0 auto; display:block; position:absolute; bottom:-20px; left:0; right:0; width:63px; height:3px; background-color:#FFF}
