@@ -9,7 +9,7 @@ window.onload = function(ev){
     timeElapse(together);
 
     var total_img = 611;
-    var now_img = 61;
+    var now_img = 31;
     imgLocation("main", "pin");
 
     window.onscroll = function () {
